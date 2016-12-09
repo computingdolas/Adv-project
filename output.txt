@@ -1,0 +1,122 @@
+The size of build_list is:=12
+Build list is :=scv
+Build list is :=scv
+Build list is :=scv
+Build list is :=refinery
+Build list is :=supply_depot
+Build list is :=scv
+Build list is :=barracks
+Build list is :=scv
+Build list is :=scv
+Build list is :=scv
+Build list is :=scv
+Build list is :=marine
+#name,minerals,vespene,build time,supply cost,supply provided,start energy,max energy,race,produced_by,dependency
+#Begin#,,,,,,,,,,
+# Protoss #,,,,,,,,,,
+##########,,,,,,,,,,
+probe,50,0,17,1,0,0,0,protoss, nexus ,
+zealot,100,0,38,2,0,0,0,protoss, gateway ,
+stalker,125,50,42,2,0,0,0,protoss, gateway ,cybernetics_core
+sentry,50,100,37,2,0,0,0,protoss, gateway ,cybernetics_core
+warp_prism,200,0,50,2,0,0,0,protoss, robotics_facility ,
+immortal,250,100,55,3,0,0,0,protoss, robotics_facility ,
+observer,25,75,30,1,0,0,0,protoss, robotics_facility ,
+colossus,300,200,75,6,0,0,0,protoss, robotics_facility ,robotics_bay
+high_templar,50,150,55,2,0,0,0,protoss, gateway ,templar_archives
+dark_templar,125,125,55,2,0,0,0,protoss, gateway ,dark_shrine
+mothership,400,400,160,8,0,0,0,protoss, nexus ,fleet_beacon
+phoenix,150,100,35,2,0,0,0,protoss, stargate ,
+void_ray,250,150,60,3,0,0,0,protoss, stargate ,
+carrier,350,250,120,6,0,0,0,protoss, stargate ,fleet_beacon
+#buildings,,,,,0,,,,,
+nexus,400,0,100,0,10,0,100,protoss, probe ,
+pylon,100,0,25,0,8,0,0,protoss, probe ,
+gateway,150,0,65,0,0,0,0,protoss, probe ,pylon
+cybernetics_core,150,0,50,0,0,0,0,protoss, probe ,gateway
+robotics_facility,200,100,65,0,0,0,0,protoss, probe ,cybernetics_core
+robotics_bay,200,200,65,0,0,0,0,protoss, probe ,robotics_facility
+twilight_council,150,100,50,0,0,0,0,protoss, probe ,cybernetics_core
+templar_archives,150,200,50,0,0,0,0,protoss, probe ,twilight_council
+dark_shrine,100,150,100,0,0,0,0,protoss, probe ,twilight_council
+stargate,150,150,60,0,0,0,0,protoss, probe ,cybernetics_core
+fleet_beacon,300,200,60,0,0,0,0,protoss, probe ,stargate
+assimilator,75,0,30,0,0,0,0,protoss, probe ,
+forge,150,0,45,0,0,0,0,protoss, probe ,nexus
+photon_cannon,150,0,40,0,0,0,0,protoss, probe ,forge
+#,,,,,,,,,,
+##########,,,,,,,,,,
+#  Zerg  #,,,,,,,,,,
+##########,,,,,,,,,,
+overlord,100,0,25,0,8,0,0,zerg, larva ,
+overseer,50,50,17,0,8,0,0,zerg, overlord ,lair/hive
+hydralisk,100,50,33,2,0,0,0,zerg, larva ,hydralisk_den
+drone,50,0,17,1,0,0,0,zerg, larva ,
+queen,150,0,50,2,0,25,200,zerg, hatchery/lair/hive,spawning_pool
+larva,0,0,0,0,0,0,0,zerg, hatchery/lair/hive,
+zergling,50,0,24,0.5,0,0,0,zerg, larva ,spawning_pool
+baneling,25,25,20,0.5,0,0,0,zerg, zergling ,baneling_nest
+roach,75,25,27,2,0,0,0,zerg, larva ,roach_warren
+infestor,100,150,50,2,0,0,0,zerg, larva ,infestation_pit
+nydus_worm,100,100,20,0,0,0,0,zerg, nydus_network ,
+ultralisk,300,200,55,6,0,0,0,zerg, larva ,ultralisk_cavern
+brood_lord,150,150,34,4,0,0,0,zerg, corruptor ,greater_spire
+corruptor,150,100,40,2,0,0,0,zerg, larva ,spire/greater_spire
+mutalisk,100,100,33,2,0,0,0,zerg, larva ,spire/greater_spire
+#buildings,,,,,,,,,,
+hatchery,300,0,100,0,2,0,0,zerg,drone ,
+evolution_chamber,75,0,35,0,0,0,0,zerg,drone ,hatchery
+spore_crawler,75,0,30,0,0,0,0,zerg,drone ,evolution_chamber
+lair,150,100,80,0,0,0,0,zerg,hatchery ,hatchery/spawning_pool
+spawning_pool,200,0,65,0,0,0,0,zerg,drone ,hatchery
+extractor,25,0,30,0,0,0,0,zerg,drone ,
+spine_crawler,100,0,50,0,0,0,0,zerg,drone ,spawning_pool
+roach_warren,150,0,55,0,0,0,0,zerg,drone ,spawning_pool
+baneling_nest,100,50,60,0,0,0,0,zerg,drone ,spawning_pool
+hydralisk_den,100,100,40,0,0,0,0,zerg,drone ,lair
+infestation_pit,100,100,50,0,0,0,0,zerg,drone ,lair
+hive,200,150,100,0,0,0,0,zerg,lair ,infestation_pit
+nydus_network,150,200,50,0,0,0,0,zerg,drone ,lair
+ultralisk_cavern,150,200,65,0,0,0,0,zerg,drone ,hive
+greater_spire,100,150,100,0,0,0,0,zerg,spire ,hive
+spire,200,200,100,0,0,0,0,zerg,drone ,lair
+#,,,,,,,,,,
+##########,,,,,,,,,,
+build initiate is:=1
+build initiate is:=1
+build initiate is:=1
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+Pushed into buildings queue, time: refinery 6
+build initiate is:=1
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+build initiate is:=0
+Pushed into buildings queue, time: supply_depot 35
+build initiate is:=1

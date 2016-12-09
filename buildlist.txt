@@ -1,0 +1,14 @@
+probe
+probe
+probe
+assimilator
+probe
+probe
+pylon
+gateway
+cybernetics_core
+stargate
+probe
+probe
+void_ray
+probe
